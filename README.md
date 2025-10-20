@@ -22,7 +22,7 @@ src/
 			PdfGenerator/               # PDF 生成器（iText、PDFBox）
 		resources/
 			food.html                   # 菜单数据（从 classpath 加载）
-reports/                                            # PDF 输出目录
+reports/                                # PDF 输出目录
 ```
 
 ## 使用说明
@@ -32,7 +32,7 @@ reports/                                            # PDF 输出目录
 	- 3 查看所有炸鸡
 	- 4 查看购物车
 	- 5 退出系统
-![alt text](image.png)
+![alt text](readme_img/image.png)
 
 - 列表页操作：
 	- 输入商品序号：加入购物车
@@ -40,30 +40,30 @@ reports/                                            # PDF 输出目录
 	- 输入 u/d：升序/降序
 	- 输入 q：返回主菜单
 
-![alt text](image-1.png)
+![alt text](readme_img/image-1.png)
 
-![alt text](image-2.png)
+![alt text](readme_img/image-2.png)
 
 - 购物车页操作：
 	- 输入序号：移除对应商品
 	- 输入 p：选择折扣方案并结算
 	- 输入 q：返回主菜单
 
-![alt text](image-3.png)
+![alt text](readme_img/image-3.png)
 
-![alt text](image-4.png)
+![alt text](readme_img/image-4.png)
 
 - 折扣方案（示例）：
 	- HalfPriceDiscount：仅玛格丽特披萨享五折
 	- Minus50Discount：满一定条件减 50（示例策略）
 
-![alt text](image-5.png)
+![alt text](readme_img/image-5.png)
 
 - 结算后可选择 PDF 生成器导出账单：
 	- iText 生成 `reports/iTextReport.pdf`
 	- PDFBox 生成 `reports/PdfBoxReport.pdf`
 
-![alt text](image-6.png)
+![alt text](readme_img/image-6.png)
 
 ## PDF 导出与字体说明
 - iText：直接写入段落文本；若出现 SLF4J NOP 日志提示，可忽略（不影响功能）。
