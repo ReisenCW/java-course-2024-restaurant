@@ -22,7 +22,7 @@ src/
 			PdfGenerator/               # PDF 生成器（iText、PDFBox）
 		resources/
 			food.html                   # 菜单数据（从 classpath 加载）
-reports/                                            # PDF 输出目录
+reports/                                # PDF 输出目录
 ```
 
 ## 使用说明
