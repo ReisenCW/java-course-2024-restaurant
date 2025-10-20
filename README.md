@@ -32,6 +32,8 @@ reports/                                # PDF 输出目录
 	- 3 查看所有炸鸡
 	- 4 查看购物车
 	- 5 退出系统
+
+ 
 ![alt text](readme_img/image.png)
 
 - 列表页操作：
